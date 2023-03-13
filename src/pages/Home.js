@@ -1,8 +1,15 @@
-import React from 'react';
 
-const Home =() => {
+
+
+const Home = () => {
     return <div>
-        Home
+        <header className="header">
+            
+        </header>
+        <section>
+
+
+        </section>
     </div>
 }
 
