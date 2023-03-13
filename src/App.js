@@ -1,16 +1,18 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
+
 import Home from './pages/HomePage';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
 import Header from './components/Header';
+import ButtonMailto from './components/Email';
 
 function App() {
   return (
     <Router>
       <div>
-        <Header/>
+        <Header className="header"/>
 
         <Routes>
 
