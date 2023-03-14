@@ -12,6 +12,7 @@ body {
 }
 .navText{
   color: whitesmoke;
+  text-shadow: 3px 2px black;
 }
 .header{
   font-family: 'Mynerve', cursive;
@@ -29,14 +30,12 @@ body {
   border-bottom: solid 4px silver;
 }
 
-.archer{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 img {
-  height: 95vh;
-  width: 50vw;
+  height: 50vh;
+  width: 40vw;
+  border: 3px rgba(0, 0, 0, 0.489) solid;
+  margin: 10px;
+  border-radius: 50px;
 }
 
 .homepage{
@@ -68,4 +67,11 @@ img {
 }
 a{
   color: white;
+}
+
+@media(max-width:480px){
+  img {
+    height: 30vh;
+    width: 40vw;
+  }
 }
