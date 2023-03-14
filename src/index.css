@@ -10,14 +10,16 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
 }
-
+.navText{
+  color: whitesmoke;
+}
 .header{
   font-family: 'Mynerve', cursive;
-  font-size: larger;
+  font-size: 30px;
   font-weight: bold;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: #a6367d99;
+  background-color: rgba(0, 0, 0, 0.5);
   justify-content: center;
   text-align: center;
   padding-left: 25px;
@@ -50,4 +52,20 @@ img {
   align-items: center;
   flex-direction: column;
   position: relative;
+}
+.contactCard{
+  border: 2px solid rgb(255, 255, 255);
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: whitesmoke;
+  margin: 15px; 
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  text-transform: full-width;
+  flex-wrap: wrap;
+}
+a{
+  color: white;
 }

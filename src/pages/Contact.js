@@ -2,7 +2,7 @@ import ButtonMailto from "../components/Email"
 import Resume from "../Docs/MBCV WebD started PDF.pdf"
 
 const Contact = () => {
-    return <div>
+    return <div className="contactCard">
         Contact info:
         <header>
             <ul>
