@@ -14,6 +14,7 @@ body {
   color: black;
   text-shadow: 2px 2px whitesmoke;
 }
+
 .header{
   font-family: 'Mynerve', cursive;
   font-size: 23px;
@@ -102,7 +103,7 @@ a{
   height: 40vh;
 }
 .container{
-  background: conic-gradient(from -.6turn at bottom right, rgba(232, 111, 176, 0.515), rgba(255, 255, 255, 0.456), rgb(171, 115, 228)); 
+  background: conic-gradient(from -.6turn at bottom right, rgba(232, 111, 176, 0.515), rgba(255, 255, 255, 0.456), rgba(171, 115, 228, 0.547)); 
 }
 
 @media(max-width:480px){

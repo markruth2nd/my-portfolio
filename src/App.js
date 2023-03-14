@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Header className="header"/>
+        <Header className="header" />
 
         <Routes>
 
