@@ -1,10 +1,14 @@
-
+import Archer from "../images/Archer.png";
 
 const Home = ({name, title}) => {
     return <div>
+        <header className="welcome">
+                Welcome to my Portfolio
+            </header>
+            <h2>Brand statement goes here</h2>
         <div className="homepage">
-        <section className="archer">
-            <img src="https://cdn.shopify.com/s/files/1/0567/0567/9555/products/ARCHER-AGSA-SterlingArcher-28-Close_900x.jpg?v=1642604917" alt="Archer"/>
+        <section>
+            <img className="archer" src={Archer} alt="Archer"/>
         </section>
         <section className="myInfo">
             <h1>My Name is {name}</h1>
