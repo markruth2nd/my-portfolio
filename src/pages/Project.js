@@ -9,8 +9,9 @@ import Project6 from "../components/Project6"
 const Project = () => {
     return <div>
         <header>
-        Projects So Far..!
+
         </header>
+        
         <section className="projects">
         <Project1 />
         <Project2 />

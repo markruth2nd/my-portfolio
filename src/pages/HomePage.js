@@ -4,8 +4,8 @@ const Home = ({name, title}) => {
     return <div>
         <header className="welcome">
                 Welcome to my Portfolio
-            </header>
-            <h2>Brand statement goes here</h2>
+            </header >
+            <h2 className="welcome2">Brand statement goes here</h2>
         <div className="homepage">
         <section>
             <img className="archer" src={Archer} alt="Archer"/>

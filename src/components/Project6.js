@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Project6 = () => {
     return <div className="container">
         <h1>Other Stuff!!</h1>
-        <p>Github page: <a href="https://github.com/markruth2nd/Password-Generator-">25 mini Projects</a></p>
+        <p>Github page: <a href="https://github.com/markruth2nd/25-projects">25 mini Projects</a></p>
         <div className="projects">
         <img className="project-images"
         src={Project6a} />
