@@ -1,6 +1,5 @@
 import Project2a from "../images/project2a.png";
 import Project2b from "../images/project2b.png";
-import { Link } from "react-router-dom";
 
 
 
@@ -11,9 +10,9 @@ const Project2 = () => {
         <p>Deployed Link: <a href="https://markruth2nd.github.io/Code-Quiz/">Code Quiz</a></p>
         <div className="projects">
         <img className="project-images"
-        src={Project2a} />
+        src={Project2a} alt="projectPic" />
         <img className="project-images"
-        src={Project2b} />
+        src={Project2b} alt="projectPic" />
         </div>
         </div>
 }

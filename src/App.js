@@ -6,7 +6,6 @@ import Home from './pages/HomePage';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
 import Header from './components/Header';
-import ButtonMailto from './components/Email';
 
 function App() {
   return (

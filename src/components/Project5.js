@@ -1,5 +1,4 @@
 import Project5a from "../images/project5a.png";
-import { Link } from "react-router-dom";
 
 
 
@@ -10,7 +9,7 @@ const Project5 = () => {
         <p>Deployed Link: <a href="https://markruth2nd.github.io/prework-study-guide/">South Pre work Study Guide</a></p>
         <div className="projects">
         <img className="project-images"
-        src={Project5a} />
+        src={Project5a}alt="projectPic" />
         </div>
         </div>
 }

@@ -1,6 +1,5 @@
 import Project3a from "../images/project3a.png";
 import Project3b from "../images/project3b.png";
-import { Link } from "react-router-dom";
 
 
 
@@ -11,9 +10,9 @@ const Project3 = () => {
         <p>Deployed Link: <a href="https://markruth2nd.github.io/Password-Generator-/ ">Password Generator</a></p>
         <div className="projects">
         <img className="project-images"
-        src={Project3a} />
+        src={Project3a} alt="projectPic" />
         <img className="project-images"
-        src={Project3b} />
+        src={Project3b} alt="projectPic" />
         </div>
         </div>
 }

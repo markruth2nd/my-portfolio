@@ -2,7 +2,6 @@ import Project6a from "../images/project6a.png";
 import Project6b from "../images/project6b.png";
 import Project6c from "../images/project6c.png";
 import Project6d from "../images/project6d.png";
-import { Link } from "react-router-dom";
 
 
 
@@ -12,13 +11,13 @@ const Project6 = () => {
         <p>Github page: <a href="https://github.com/markruth2nd/25-projects">25 mini Projects</a></p>
         <div className="projects">
         <img className="project-images"
-        src={Project6a} />
+        src={Project6a} alt="projectPic" />
         <img className="project-images"
-        src={Project6b} />
+        src={Project6b} alt="projectPic" />
         <img className="project-images"
-        src={Project6c} />
+        src={Project6c} alt="projectPic" />
         <img className="project-images"
-        src={Project6d} />
+        src={Project6d} alt="projectPic" />
         </div>
         </div>
 }
